@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 13 Mini",
+    "price": 799,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S22 Ultra",
+    "price": 899,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 6 Pro",
+    "price": 699,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "iPhone 13 Pro",
+    "price": 999,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy S22 Plus",
+    "price": 879,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Google Pixel 6 XL",
+    "price": 729,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "iPhone 13 Max",
+    "price": 1099,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy S22 Edge",
+    "price": 859,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Google Pixel 6a",
+    "price": 499,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "iPhone 13 SE",
+    "price": 599,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Samsung Galaxy S22 Neo",
+    "price": 819,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Google Pixel 6 Lite",
+    "price": 549,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "iPhone 13X",
+    "price": 829,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Samsung Galaxy S22 Compact",
+    "price": 789,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Google Pixel 6 Edge",
+    "price": 619,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "iPhone 13 Classic",
+    "price": 699,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Samsung Galaxy S22 Max",
+    "price": 929,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Google Pixel 6 Note",
+    "price": 659,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 19,
+    "name": "iPhone 13 Air",
+    "price": 759,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Samsung Galaxy S22 Pro",
+    "price": 889,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 21,
+    "name": "Google Pixel 6 Prime",
+    "price": 699,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 22,
+    "name": "iPhone 13 Prime",
+    "price": 819,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 23,
+    "name": "Samsung Galaxy S22 Zoom",
+    "price": 839,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 24,
+    "name": "Google Pixel 6 Zoom",
+    "price": 669,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 25,
+    "name": "iPhone 13 Zoom",
+    "price": 889,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 26,
+    "name": "Samsung Galaxy S22 Air",
+    "price": 769,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 27,
+    "name": "Google Pixel 6 Neo",
+    "price": 589,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 28,
+    "name": "iPhone 13 Neo",
+    "price": 719,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 29,
+    "name": "Samsung Galaxy S22 Mini",
+    "price": 759,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 30,
+    "name": "Google Pixel 6 SE",
+    "price": 539,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 31,
+    "name": "iPhone 13 Max Pro",
+    "price": 1099,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 32,
+    "name": "Samsung Galaxy S22 Max Ultra",
+    "price": 999,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 33,
+    "name": "Google Pixel 6 Fold",
+    "price": 879,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 34,
+    "name": "iPhone 13 Fold",
+    "price": 989,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 35,
+    "name": "Samsung Galaxy S22 Fold",
+    "price": 969,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 36,
+    "name": "Google Pixel 6 Flip",
+    "price": 779,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 37,
+    "name": "iPhone 13 Flip",
+    "price": 829,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 38,
+    "name": "Samsung Galaxy S22 Flip",
+    "price": 849,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 39,
+    "name": "Google Pixel 6 Compact",
+    "price": 599,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 40,
+    "name": "iPhone 13 Compact",
+    "price": 699,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 41,
+    "name": "Samsung Galaxy S22 Lite",
+    "price": 739,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 42,
+    "name": "Google Pixel 6 Max",
+    "price": 649,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 43,
+    "name": "iPhone 13 Ultra",
+    "price": 1099,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 44,
+    "name": "Samsung Galaxy S22 Edge Pro",
+    "price": 959,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 45,
+    "name": "Google Pixel 6 Edge Max",
+    "price": 699,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 46,
+    "name": "iPhone 13 Note",
+    "price": 799,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 47,
+    "name": "Samsung Galaxy S22 Note",
+    "price": 939,
+    "image": "/images/image1.jpeg"
+  },
+  {
+    "id": 48,
+    "name": "Google Pixel 6 Pro Max",
+    "price": 899,
+    "image": "/images/image2.jpeg"
+  },
+  {
+    "id": 49,
+    "name": "iPhone 13 Mini Max",
+    "price": 889,
+    "image": "/images/image3.jpeg"
+  },
+  {
+    "id": 50,
+    "name": "Samsung Galaxy S22 SE",
+    "price": 799,
+    "image": "/images/image1.jpeg"
+  }
+]
