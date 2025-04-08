@@ -2,9 +2,22 @@ import { getProducts } from "@/lib/data";
 import { Product } from "@/lib/definitions";
 import { Card } from "@/components/card/Card";
 import styles from "./ProductsList.module.css";
+import { Pagination } from "./Pagination";
 
-export default async function ProductsList({ name }: { name: string }) {
-  const products: Product[] = await getProducts(name);
+export default async function ProductsList({
+  name,
+  page,
+  limit,
+}: {
+  name: string;
+  page: number;
+  limit: number;
+}) {
+  const response = await getProducts(name, page, limit);
+
+  const products: Product[] = response.products;
+  const totalPages = response.totalPages;
+  console.log(totalPages, "xxx");
 
   const emptyProducts = (
     <div className={styles.containerEmptyProducts}>
@@ -18,12 +31,14 @@ export default async function ProductsList({ name }: { name: string }) {
   }
 
   return (
-    <div className={styles.container}>
-      {products.map((product) => (
-        <Card key={product.id} product={product} />
-      ))}
+    <>
+      <div className={styles.container}>
+        {products.map((product) => (
+          <Card key={product.id} product={product} />
+        ))}
+      </div>
 
-      {/* <button>show more </button> */}
-    </div>
+      <Pagination totalPages={totalPages} />
+    </>
   );
 }

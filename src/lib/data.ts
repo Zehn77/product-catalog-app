@@ -4,7 +4,11 @@ import { Product } from "./definitions";
 
 // const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-export async function getProducts(name: string, limit: number = 3) {
+export async function getProducts(
+  name: string,
+  page: number = 1,
+  limit: number = 3
+) {
   try {
     const filePath = path.join(process.cwd(), "src", "data", "products.json");
     const jsonData = await readFile(filePath, "utf-8");
@@ -14,8 +18,12 @@ export async function getProducts(name: string, limit: number = 3) {
       product.name.toLowerCase().includes(name.toLowerCase())
     );
 
-    // return products.slice(0, limit);
-    return products;
+    const result = products.slice((page - 1) * limit, page * limit);
+
+    return {
+      products: result,
+      totalPages: Math.ceil(products.length / limit),
+    };
   } catch (error) {
     console.error("Database Error:", error);
     throw new Error("Failed to fetch products data.");

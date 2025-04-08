@@ -6,17 +6,20 @@ import { CardsSkeleton } from "@/components/skeletons/skeletons";
 export default async function Products(props: {
   searchParams?: Promise<{
     name?: string;
+    page?: string;
+    limit?: string;
   }>;
 }) {
   const searchParams = await props.searchParams;
   const name = searchParams?.name || "";
+  const page = Number(searchParams?.page) || 1;
+  const limit = Number(searchParams?.limit) || 3;
 
   return (
     <>
       <Search />
-
       <Suspense key={name} fallback={<CardsSkeleton />}>
-        <ProductsList name={name} />
+        <ProductsList name={name} page={page} limit={limit} />
       </Suspense>
     </>
   );
