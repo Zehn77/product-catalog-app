@@ -23,13 +23,13 @@
 
 .basketItem:hover {
   opacity: 0.9;
-  background-color: #f9f9f9; /* Slightly darker background on hover */
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Increase shadow on hover */
-  transform: translateY(-2px); /* Slight upward movement */
+  background-color: #f9f9f9; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px); 
 }
 
 .basketItem:active {
-  transform: translateY(0); /* Reset position when clicked */
+  transform: translateY(0);
 }
 
 .productImage {
