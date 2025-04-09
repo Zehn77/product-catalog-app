@@ -1,8 +1,14 @@
 "use client";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
+import { useBasket } from "@/context/BasketContext";
+import { SlBasket } from "react-icons/sl";
 
 export function Navbar() {
+  const { basket } = useBasket();
+
+  const length = basket.length;
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.container}>
@@ -15,9 +21,17 @@ export function Navbar() {
           </li>
         </ul>
 
-        <div className={styles.basket}>
-          <Link href="/basket">🛒 Basket</Link>
-        </div>
+        <Link href="/basket" className={styles.basket_container}>
+          <div className={styles.basket}>
+            <SlBasket style={{ width: "20px", height: "20px" }} />
+            <span>Basket</span>
+          </div>
+          {length !== 0 && (
+            <div className={styles.circle}>
+              <span>{length}</span>
+            </div>
+          )}
+        </Link>
       </div>
     </nav>
   );

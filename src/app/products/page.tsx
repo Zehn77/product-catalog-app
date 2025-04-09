@@ -18,7 +18,7 @@ export default async function Products(props: {
   return (
     <>
       <Search />
-      <Suspense key={name} fallback={<CardsSkeleton />}>
+      <Suspense key={name + limit} fallback={<CardsSkeleton />}>
         <ProductsList name={name} page={page} limit={limit} />
       </Suspense>
     </>

@@ -40,3 +40,56 @@
 .navLinks a:hover {
   color: #0070f3;
 }
+
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.basket_container {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid rgb(220, 220, 220);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.basket_container:hover {
+  border: 1px solid #0070f3;
+  color: #0070f3;
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 12px rgba(0, 112, 243, 0.15);
+}
+
+.circle {
+  background-color: #ff4d4f;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  position: absolute;
+  right: -6px;
+  bottom: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+
+}
+
+.basket_container:hover .circle {
+  transform: scale(1.1);
+}

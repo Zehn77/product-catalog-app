@@ -2,7 +2,7 @@ import { getProducts } from "@/lib/data";
 import { Product } from "@/lib/definitions";
 import { Card } from "@/components/card/Card";
 import styles from "./ProductsList.module.css";
-import { Pagination } from "./Pagination";
+import { Pagination } from "../pagination/Pagination";
 
 export default async function ProductsList({
   name,
@@ -17,7 +17,6 @@ export default async function ProductsList({
 
   const products: Product[] = response.products;
   const totalPages = response.totalPages;
-  console.log(totalPages, "xxx");
 
   const emptyProducts = (
     <div className={styles.containerEmptyProducts}>

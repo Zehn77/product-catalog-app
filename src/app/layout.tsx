@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar/Navbar";
 import styles from "./page.module.css";
+import { BasketProvider } from "@/context/BasketContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,11 +27,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Navbar />
-        <main className={styles.container}>{children}</main>
-      </body>
-    </html>
+    <BasketProvider>
+      <html lang="en">
+        <body className={`${geistSans.variable} ${geistMono.variable}`}>
+          <Navbar />
+          <main className={styles.container}>{children}</main>
+        </body>
+      </html>
+    </BasketProvider>
   );
 }
