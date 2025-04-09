@@ -4,6 +4,7 @@
 
 This is a dynamic catalog app that allows users to browse and explore a variety of products, add them to a shopping basket, and manage the items in their cart. The app is built with Next.js and React and includes features like product search, basket management, and persistent cart state using LocalStorage.
 
+**Visit the website:** [https://product-catalog-app-h1so.vercel.app/](https://product-catalog-app-h1so.vercel.app/)
 
 ## Project Overview
 
