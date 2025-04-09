@@ -5,18 +5,6 @@
 This is a dynamic catalog app that allows users to browse and explore a variety of products, add them to a shopping basket, and manage the items in their cart. The app is built with Next.js and React and includes features like product search, basket management, and persistent cart state using LocalStorage.
 
 
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [Usage](#usage)
-- [SEO Setup](#seo-setup)
-- [License](#license)
-
 ## Project Overview
 
 This project provides a complete product catalog system with a basket management feature. It allows users to:
@@ -55,8 +43,9 @@ Follow the steps below to get the app running locally:
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/shopping-basket.git
-cd shopping-basket
+git clone https://github.com/Zehn77/product-catalog-app
+
+cd product-catalog-app
 
 ### 2. Install dependencies
 
